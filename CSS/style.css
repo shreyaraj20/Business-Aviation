@@ -1,0 +1,31 @@
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Source Sans Pro',sans-serif;
+}
+/* Start Styling of header section*/
+header .item {
+    height: 40vh;
+    min-height: 350px;
+    background: no-repeat center center ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+ header .carousel-indicators {
+    z-index: 3;
+  }
+  header .carousel-indicators .active{
+    background-color: rgb(221, 99, 18) !important;
+  }
+  header .carousel-caption{
+      color:white;
+  }
+  header .display-4{
+      font-size: 3em;
+      font-weight: 700;
+  }
+/* End Styling of header section*/
