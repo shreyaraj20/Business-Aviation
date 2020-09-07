@@ -1,0 +1,39 @@
+.navbarr{
+    width:78%;
+    margin: 0% 10%;
+    transform: translateY(-50%);
+    background-color: white;
+     
+  }
+  .nav{
+    background-color: rgb(142, 143, 146);
+    color:white;
+     
+  }
+  .nav a{
+    color:white;
+  }
+    
+  .navbarr .btn{
+     background-color: rgb(236, 122, 45);
+     color:white;
+  }
+  
+  @media(max-width:720px){
+    .navbarr{
+     transform: translateY(-10%);
+     background-color: white;
+      
+   }
+   .nav{
+      display: flex;
+      flex-direction: column;
+   }
+   .nav a{
+     color:white;
+     font-size: 10px;
+   }
+    
+  }
+  
+  
