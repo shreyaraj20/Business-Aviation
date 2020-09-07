@@ -1,14 +1,16 @@
+
+
 .navbarr{
-    width:78%;
+    width:80%;
     margin: 0% 10%;
-    transform: translateY(-50%);
+    transform: translateY(-40%);
     background-color: white;
-     
+    border:1px solid white;
   }
   .nav{
     background-color: rgb(142, 143, 146);
     color:white;
-     
+   
   }
   .nav a{
     color:white;
