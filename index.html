@@ -8,6 +8,8 @@
   <link rel="stylesheet" href="CSS/style.css">
   <link rel="stylesheet" href="CSS/navbar.css">
   <link rel="stylesheet" href="CSS/info.css">
+  <link rel="stylesheet" href="CSS/special.css">
+  <link rel="stylesheet" href="CSS/inventory.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -116,12 +118,144 @@
 
                         <!--End First Part of section-->
                         
+                        
+
+
+
 
 
                         <!--Start Special part of the section-->
+           
+                            <div class="container special"> 
+                                <h1>SPECIALS</h1>
+                                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                                      <!-- Wrapper for slides -->
+                                      <div class="carousel-inner">
+                                          <div class="item active">
+                                                 <div class="flex-container" >
+                                                      <div>
+                                                           <div class="card">
+                                                                <img class="card-img-top" src="img/helicopter.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                    <h5>2019 HELICOPTER</h5>
+                                                                    <h3 class="card-title">Schweizer 269C</h3>
+                                                                     <hr>
+                                                                     <div>
+                                                                          <span><i class="fa fa-clock-o"></i>2100 HRS</span>
+                                                                         <span><i class="fa fa-comments"></i>C-GCMR</span>
+                                                                    </div>
+                                                                 </div>
+                                                          </div>
+                                                     </div>
+                                                     <div>
+                                                          <div class="card">
+                                                                 <img class="card-img-top" src="img/multi-engine.jpg" alt="Card image cap">
+                                                                 <div class="card-body">
+                                                                    <h5>2019 MULTI-ENGINE</h5>
+                                                                    <h3 class="card-title">Dassault Falcon 8X</h3>
+                                                                    <hr>
+                                                                    <div>
+                                                                           <span><i class="fa fa-clock-o"></i>2555 HRS</span>
+                                                                           <span><i class="fa fa-barcode"></i>310P0047</span>
+                                                                           <span><i class="fa fa-comments"></i>18NT</span>  
+                                                                    </div>     
+                                                                </div>
+                                                         </div>
+                                                    </div>
+                                                     <div>
+                                                         <div class="card">
+                                                                <img class="card-img-top" src="img/jet.jpg" alt="Card image cap">
+                                                                <div class="card-body">
+                                                                     <h5>2019 JET</h5>
+                                                                     <h3 class="card-title">Mitsubishi-36909</h3>
+                                                                     <hr>
+                                                                      <div>
+                                                                            <span><i class="fa fa-clock-o"></i>3210 HRS</span>
+                                                                            <span><i class="fa fa-barcode"></i>310P0071</span>
+                                                                            <span><i class="fa fa-comments"></i>C-HAN</span>      
+                                                                    </div>
+                                                                 </div>
+                                                        </div>
+                                                     </div>  
+                                            </div>   
+                                        </div>
+                                  </div>
+
+                                 <!-- Indicators -->
+                                            <ol class="carousel-indicators">
+                                                     <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                                                     <li data-target="#myCarousel" data-slide-to="1"></li>
+                                             </ol>
+                                 </div>
+                            </div>
+       
+  
+                        <!--End of Special part of the section-->
 
                         
-                        <!--Start Special part of the section-->
+
+
+                        <!--Start Inventory part-->
+                        
+                        <div class="inventory">
+                          <div class="flex-container">
+                              <!--Start of Inventory Side-Bar-->
+                                     <div class="side-menu">
+                                         <!--Start of first item-->
+                                               <div class="item item1" >
+                                                     <h5>Condition<button><span class="glyphicon glyphicon-minus"></button></h5>
+                                                     <div id="myDropdown">      
+                                                              <a><span class="glyphicon glyphicon-arrow-right"></span>New<span>(20)</span></a></br>
+                                                              <a><span class="glyphicon glyphicon-arrow-right"></span>Used<span>(4)</span></a>  
+                                                    </div>
+                                                 </div>
+                                         <!--End of first item-->
+
+                                         <!--Start of Second item-->
+                                                <div class="item item2" >
+                                                    <h5>TYPE<button><span class="glyphicon glyphicon-minus"></button></h5>
+                                                    <div id="myDropdown">      
+                                                             <a><span class="glyphicon glyphicon-arrow-right"></span>Commercial<span>(0)</span></a></br>
+                                                             <a><span class="glyphicon glyphicon-arrow-right"></span>Helicopter<span>(7)</span></a></br>
+                                                             <a><span class="glyphicon glyphicon-arrow-right"></span>Jet<span>(6)</span></a></br>
+                                                             <a><span class="glyphicon glyphicon-arrow-right"></span>Aircraft<span>(0)</span></a>  </br>
+                                                             <a><span class="glyphicon glyphicon-arrow-right"></span>Piston<span>(0)</span></a></br>
+                                                             <a><span class="glyphicon glyphicon-arrow-right"></span> Engine<span>(5)</span></a></br>
+                                                             <a><span class="glyphicon glyphicon-arrow-right"></span>Turbine<span>(0)</span> </a></br>
+                                                             <a><span class="glyphicon glyphicon-arrow-right"></span>Vintage<span>(0)</span></a></br>
+                                                    </div>
+                                                </div>
+                                        <!--End of second item-->
+
+                                        <!--Start of third item-->
+                                              <div class="item item3" >
+                                                    <h5>MAKE<button><span class="glyphicon glyphicon-plus"></button></h5>
+                                             </div>
+                                        <!--End of third item-->
+
+                                        <!--Start of fourth item-->
+                                             <div class="item item4" >
+                                                   <h5>MODEL<button><span class="glyphicon glyphicon-plus"></button></h5>
+                                             </div>
+                                        <!--End of fourth item-->
+
+                                        <!--Start of fifth item-->
+                                            <div class="item item5" >
+                                                   <h5>YEAR<button><span class="glyphicon glyphicon-minus"></button></h5>
+                                                   <div id="myDropdown">      
+                                                            <a><span class="glyphicon glyphicon-arrow-right"></span>2018<span>(4)</span></a></br>
+                                                            <a><span class="glyphicon glyphicon-arrow-right"></span>2019<span>(20)</span></a>  
+                                                   </div>
+                                             </div>
+                                        <!--End of fifth item-->
+                                    </div>
+                             <!--End of Inventory Side-Bar-->
+                </div>       
+            </div>
+              <!--End Inventory part-->
+
+
+
                 </section>
 
 
