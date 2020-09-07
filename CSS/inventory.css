@@ -310,6 +310,16 @@
      margin-left:5%;
    }
     
+   .container-1 button{
+     
+    font-size: .5em;
+      
+    margin-left:10%;
+     border:none;
+     width:30%;
+     height: 50%;
+     margin-top:5%;
+  }
   .container1{
     /* height: auto; */
     border-bottom: 1px solid #dad3d3;
